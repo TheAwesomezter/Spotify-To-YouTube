@@ -43,8 +43,8 @@ with open('songs_list.csv', 'w+') as file: # enter the file name
     writer = csv.writer(file)
     writer.writerows(songs)
 
-with open('songs_list.csv') as input, open('modified_list.csv', 'w', newline='') as output:
-    writer = csv.writer(output)
-    for row in csv.reader(input):
-        if any(field.strip() for field in row):
-            writer.writerow(row)
+# with open('songs_list.csv') as input, open('modified_list.csv', 'w', newline='') as output:
+#     writer = csv.writer(output)
+#     for row in csv.reader(input):
+#         if any(field.strip() for field in row):
+#             writer.writerow(row)

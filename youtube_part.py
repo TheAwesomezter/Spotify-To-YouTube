@@ -1,7 +1,7 @@
 from apiclient.discovery import build
 import csv
 
-api_key = 'AIzaSyDniyKScIFGcmJ4C7VrqJwynf4kgpwoZZU'
+api_key = '' # enter your YouTube API key
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 songs = []
